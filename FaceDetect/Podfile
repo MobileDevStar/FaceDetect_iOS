@@ -1,0 +1,15 @@
+# Use iOS 9 and above
+platform :ios, '9.0'
+
+# Specify Workspace
+workspace 'FaceDetect'
+
+target 'FaceDetect' do
+  
+  # Install additional dependencies
+  pod 'Firebase/Core'
+  pod 'Firebase/Analytics'
+  pod 'Firebase/MLVision'
+  pod 'Firebase/MLVisionFaceModel'
+
+end
